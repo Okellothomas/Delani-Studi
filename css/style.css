@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(12, 2, 2);
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#header{
+    height: 100%;
+    width: 100%;
+    text-align: center;  
+    background-size: cover;
+}
+
+#logo{
+    margin-top: 30vh;
+    width: 45px;
+    height: 45px;
+}
+
+.col-12{
+    text-align: center;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+}
+#mouse{
+    margin-top: 12%;
+    margin-bottom: 3%;
+}
+#headpara{
+    margin-top: 0.5%;
+    font-size: 15px;
+}
+.h2{
+    margin-top: 6.5%;
+}
+.h2two{
+    margin-top: 2%;
+}
