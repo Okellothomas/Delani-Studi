@@ -9,6 +9,13 @@ body{
 #about{
     color: black;
 }
+#about h3{
+    margin-top: 5.3%;
+    font-weight: bold;
+}
+#about h4{
+    margin-bottom: 5%;
+}
 #whatwedo{
     color: black;
     margin-bottom: 2.7%;
@@ -87,4 +94,7 @@ body{
 #services h3{
     font-weight: bold;
     margin-bottom: 12%;
+}
+#header{
+    
 }
