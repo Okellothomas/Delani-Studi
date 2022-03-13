@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+.container-fluid{
+    text-align: center;
+}
+#about{
+    color: black;
+}
+#whatwedo{
+    color: black;
+}
+#portfolio{
+    text-align: center;
+    color: black;
+}
+#portfolio img{
+    width: 255px;
+    height: 255px;
+    /* margin: 2px; */
+
+}
+#port img{
+    margin: 3px;
+    width: 255px;
+    height: 255px;   
+}
+#footer{
+    margin-top: 1%;
+    color: black;
+}
+#footer h5{
+    margin-top: 1%;
+}
+#footer img{
+    width: 26px;
+    height: 26px;
+}
