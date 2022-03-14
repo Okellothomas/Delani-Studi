@@ -1,23 +1,26 @@
-// implementation
+// the what to do section. 
+// $(document).ready(function(){
+//     $("img#design").mouseover(click(function(){
 
-$(document).ready(function() {
-    $("#blanks form").submit(function(e) {
-      var nameInput = $("input#name").val()
-      var emailInput = $("input#emil").val()
-      var messageTextArea= $("input#message").val()
+//     })
+// });
 
-      $(".person1").text(person1Input);
-      $(".person2").text(person2Input);
-      $(".animal").text(animalInput);
-      $(".exclamation").text(exclamationInput);
-      $(".verb").text(verbInput);
-      $(".noun").text(nounInput);
+$(document).ready(function(){
+    // $("img#design").mouseenter(function(){
+        $("img#design").click(function(){
+            $('h3#desing').css('color','black').css('font-size','20px').fadeToggle(2000);
+            $('p#desig').css('color','green').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
+        });
+    // });
 
-      $("#story").show();
+    $("img#dev").click(function(){
+        $('h3#desing').css('color','black').css('font-size','20px').fadeToggle(2000);
+        $('p#desig').css('color','green').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
+    }); 
 
-      e.preventDefault();
+
+    $("img#product").click(function(){
+        $('h3#desing').css('color','black').css('font-size','20px').fadeToggle(2000);
+        $('p#desig').css('color','green').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
     });
-  });
-
-
-  
+});
