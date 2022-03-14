@@ -80,7 +80,10 @@ body{
 }
 #textarea{
     text-align: center;
+}
+.btn{
     margin-bottom: 10%;
+    border: 1px solid white;
 }
 ::-webkit-input-placeholder{
     color: white;
@@ -197,7 +200,11 @@ body{
     }
     #textarea{
         text-align: center;
+        
+    }
+    .btn{
         margin-bottom: 10%;
+        border: 1px solid white;
     }
     ::-webkit-input-placeholder{
         color: white;
@@ -321,7 +328,10 @@ body{
     }
     #textarea{
         text-align: center;
+    }
+    .btn{
         margin-bottom: 10%;
+        border: 1px solid white;
     }
     ::-webkit-input-placeholder{
         color: white;
@@ -445,7 +455,10 @@ body{
     }
     #textarea{
         text-align: center;
+    }
+    .btn{
         margin-bottom: 10%;
+        border: 1px solid white;
     }
     ::-webkit-input-placeholder{
         color: white;
@@ -571,7 +584,10 @@ body{
     }
     #textarea{
         text-align: center;
+    }
+    .btn{
         margin-bottom: 10%;
+        border: 1px solid white;
     }
     ::-webkit-input-placeholder{
         color: white;
@@ -718,7 +734,10 @@ body{
     }
     #textarea{
         text-align: center;
+    }
+    .btn{
         margin-bottom: 10%;
+        border: 1px solid white;
     }
     ::-webkit-input-placeholder{
         color: white;
@@ -854,6 +873,7 @@ body{
     #contact input{
         margin-top: 3%;
     }
+
     #forms input{
         background: transparent;
         border: 1.5px solid white;
@@ -873,7 +893,10 @@ body{
     }
     #textarea{
         text-align: center;
+    }
+    .btn{
         margin-bottom: 10%;
+        border: 1px solid white;
     }
     ::-webkit-input-placeholder{
         color: white;
@@ -1028,7 +1051,10 @@ body{
     }
     #textarea{
         text-align: center;
+    }
+    .btn{
         margin-bottom: 10%;
+        border: 1px solid white;
     }
     ::-webkit-input-placeholder{
         color: white;

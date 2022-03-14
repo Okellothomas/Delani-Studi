@@ -90,7 +90,7 @@
       <!-- The header-->
   <div class="container" id="portfolio">
     <div class="row">
-      <h3>PORTFOLIO</h3>
+      <h3 id="titlePortfolio">PORTFOLIO</h3>
       <div class="col-3">
         <img src="images/portfolio/work4.jpg" alt="portfolio">
       </div>
@@ -102,6 +102,11 @@
       </div>
       <div class="col-3">
         <img src="images/portfolio/work1.jpg" alt="portfolio">
+      </div>
+      <div>
+        <div class="col-12">
+          <p id="studio" style="display: none;"></p>
+        </div>
       </div>
       <!-- The second row -->
       <div class="col-3">
@@ -129,12 +134,12 @@
         </div>
         <div class="col-4" id="name">
           <form>
-            <input type="text"   placeholder="Name..." id="nameone">
+            <input type="text" placeholder="Name..." id="nameone">
           </form>
         </div>
         <div class="col-4" id="email">
           <form>
-            <input type="email"  placeholder="Email..." id="emailone">
+            <input type="email" placeholder="Email..." id="emailone">
           </form>
         </div>
         <div class="col-2">
@@ -142,11 +147,19 @@
         </div>
         <form>
           <div class="col-12" id="textarea">
-            <textarea  placeholder="Your message here..."></textarea>
+            <textarea  placeholder="Your message here..." id="messageone"></textarea>
             <!-- <label for="floatingTextarea2">Comments</label> -->
+        </div>
+        <div class="col-12">
+          <button class="btn" id="" style="opacity: 0.3; color: white;">Submit</button>  <button class="btn" style="opacity: 0.4; color: white;">Refresh</button>
         </div>
         </form>
         
+        <div id="messag" style="display: none;">
+          <h1>A fantastical adventure</h1>
+          <p>Hi, <span class="name1"></span> this is the email you have provided: <span class="email1"></span> And this is your message: <span class="message1">. Thank you! it is well received</p>
+       </div>
+
       </div>
     </div>
     <!-- End of the header  -->
@@ -175,5 +188,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
+  <script src="js/portfolio.js"></script>
 </body>
 </html>
