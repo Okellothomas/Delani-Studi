@@ -16,16 +16,33 @@
 //   });
 
   $(document).ready(function() {
-    $("form").submit(function(e) {
+    $("button#Submit").click(function(e) {
+      //  alert('begining is fine');
         var nameInput = $("input#nameone").val();
         var email2Input = $("input#emailone").val();
         var messageTextarea = $("textarea#messageone").val();
         $(".name1").text(nameInput);
         $(".email1").text(email2Input);
-        $(".message1").text(messageTextarea);
+        $(".message1").text(messageTextarea).append('Your Message is received, Thank you!');
 
-        $("#massag").show();
 
         e.preventDefault();
     });
+
+    $("button#Refresh").click(function(e) {
+      // alert('begining is fine');
+      //  var nameInput = $("input#nameone").val();
+      //  var email2Input = $("input#emailone").val();
+      //  var messageTextarea = $("textarea#messageone").val();
+      //  $(".name1").text(nameInput);
+      //  $(".email1").text(email2Input);
+      //  $(".message1").text(messageTextarea);
+
+      $('.clear').val();
+
+      //  $("#massag").show();
+
+       e.preventDefault();
+      //  alert('alert is also fine');
+   });
 });
