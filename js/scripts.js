@@ -1,10 +1,3 @@
-// the what to do section. 
-// $(document).ready(function(){
-//     $("img#design").mouseover(click(function(){
-
-//     })
-// });
-
 $(document).ready(function(){
     // $("img#design").mouseenter(function(){
     $("img#design").click(function(){

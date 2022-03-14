@@ -1,19 +1,3 @@
-// // Implementing the contact form. 
-
-// $(document).ready(function() {
-//     $("#texts form").submit(function(e) {
-//       var content = ["name1", "email1", "message1"];
-
-//       content.forEach(function(messages) {
-//         var textMessage = $("input#" + messages).val();
-//         $("." + messages).text(textMessage);
-//       });
-
-//       $("#messag").show();
-
-//       e.preventDefault();
-//     });
-//   });
 
   $(document).ready(function() {
     $("button#Submit").click(function(e) {

@@ -1,5 +1,4 @@
    // the hover implementation
-
 $(document).ready(function(){
 
     $("div#portfolio").hover(function(){
