@@ -7,20 +7,33 @@
 
 $(document).ready(function(){
     // $("img#design").mouseenter(function(){
-        $("img#design").click(function(){
-            $('h3#desing').css('color','black').css('font-size','20px').fadeToggle(2000);
-            $('p#desig').css('color','green').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
-        });
+    $("img#design").click(function(){
+        $('h3#desing').css('color','black').css('font-size','20px').fadeToggle(2000);
+        $('p#desig').css('color','green').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
+     });
     // });
+    $("img#design").mouseleave(function(){
+        $('h3#desing').fadeOut('slow');
+        $('p#desig').fadeOut('slow');
+    });
 
     $("img#dev").click(function(){
-        $('h3#desing').css('color','black').css('font-size','20px').fadeToggle(2000);
-        $('p#desig').css('color','green').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
+        $('h3#deve').css('color','black').css('font-size','20px').fadeToggle(2000);
+        $('p#devel').css('color','green').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
     }); 
 
+    $("img#design").mouseleave(function(){
+        $('h3#desing').fadeOut('slow');
+        $('p#desig').fadeOut('slow');
+    });
 
     $("img#product").click(function(){
-        $('h3#desing').css('color','black').css('font-size','20px').fadeToggle(2000);
-        $('p#desig').css('color','green').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
+        $('h3#prod').css('color','black').css('font-size','20px').fadeToggle(2000);
+        $('p#produc').css('color','green').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
+    });
+
+    $("img#design").mouseleave(function(){
+        $('h3#desing').fadeOut('slow');
+        $('p#desig').fadeOut('slow');
     });
 });
