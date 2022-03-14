@@ -107,3 +107,979 @@ body{
     margin-top: 1%;
     margin-bottom: 2%;
 }
+#header{
+    background-size: cover;
+}
+
+
+
+/* the first one. */
+@media (max-width: 950px) { 
+    body{
+        background-color: white;
+        font-family: 'Manrope', sans-serif;
+        color: white;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    #about{
+        color: black;
+    }
+    #about h3{
+        margin-top: 4.3%;
+        font-weight: bold;
+    }
+    #about h4{
+        margin-bottom: 5%;
+    }
+    #whatwedo{
+        color: black;
+        margin-bottom: 2.7%;
+    }
+    #whatwedo h4{
+        font-weight: bold;
+        margin-top: 2.2%;
+        margin-bottom: 1.5%;
+    }
+    #whatwedo p{
+        font-size: 14px;
+    }
+    #portfolio{
+        text-align: center;
+        color: black;
+    }
+    #portfolio h3{
+        font-weight: bold;
+    }
+    #portfolio img{
+        width: 150px;
+        height: 120px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    
+    }
+    #port img{
+        margin: 3px;
+        width: 255px;
+        height: 255px;   
+    }
+    #footer{
+        margin-top: 1%;
+        color: black;
+    }
+    #footer h5{
+        margin-top: 1%;
+    }
+    #footer img{
+        width: 26px;
+        height: 26px;
+    }
+    #contact h4{
+        margin-top: 2%;
+        margin-bottom: 1.5%;
+    }
+    #forms input{
+        background: transparent;
+        border: 1.5px solid white;
+        margin-bottom: 3%;
+    }
+    #forms textarea{
+        background: transparent;
+        border: 1.5px solid white;
+        height: 30vh;
+        width: 65vw;
+        text-align: center;
+       
+    }
+    #contact{
+        text-align: center;
+    }
+    #textarea{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    ::-webkit-input-placeholder{
+        color: white;
+        text-align: left;
+    }
+    #services h4{
+        font-weight: bold;
+        margin-top: 12%;
+        margin-bottom: 1%;
+    }
+    #services h3{
+        font-weight: bold;
+        margin-bottom: 12%;
+    }
+    #header img{
+        margin-top: 16%;
+        width: 55px;
+        height: 55px;
+    }
+    #header h1{
+        margin-top: 14%;
+    }
+    #logo{
+        margin-top: 1.5%;
+        margin-bottom: 2%;
+    }
+    #header{
+        background-size: cover;
+    }
+    
+
+}
+
+
+
+
+
+
+
+@media (max-width: 767.98px) { 
+    body{
+        background-color: white;
+        font-family: 'Manrope', sans-serif;
+        color: white;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    #about{
+        color: black;
+    }
+    #about h3{
+        margin-top: 4.3%;
+        font-weight: bold;
+    }
+    #about h4{
+        margin-bottom: 5%;
+    }
+    #whatwedo{
+        color: black;
+        margin-bottom: 2.7%;
+    }
+    #whatwedo h4{
+        font-weight: bold;
+        margin-top: 2.2%;
+        margin-bottom: 1.5%;
+    }
+    #whatwedo p{
+        font-size: 10px;
+    }
+    #portfolio{
+        text-align: center;
+        color: black;
+    }
+    #portfolio h3{
+        font-weight: bold;
+    }
+    #portfolio img{
+        width: 120px;
+        height: 120px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    
+    }
+    #port img{
+        margin: 3px;
+        width: 255px;
+        height: 255px;   
+    }
+    #footer{
+        margin-top: 1%;
+        color: black;
+    }
+    #footer h5{
+        margin-top: 1%;
+    }
+    #footer img{
+        width: 26px;
+        height: 26px;
+    }
+    #contact h4{
+        margin-top: 2%;
+        margin-bottom: 1.5%;
+    }
+    #forms input{
+        background: transparent;
+        border: 1.5px solid white;
+        margin-bottom: 3%;
+        width: 24vw;
+    }
+    #forms textarea{
+        background: transparent;
+        border: 1.5px solid white;
+        height: 20vh;
+        width: 60vw;
+        text-align: center;
+       
+    }
+    #contact{
+        text-align: center;
+    }
+    #textarea{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    ::-webkit-input-placeholder{
+        color: white;
+        text-align: left;
+    }
+    #services h4{
+        font-weight: bold;
+        margin-top: 12%;
+        margin-bottom: 1%;
+    }
+    #services h3{
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+    #header img{
+        margin-top: 4.5%;
+        width: 55px;
+        height: 55px;
+    }
+    #header h1{
+        margin-top: 6%;
+    }
+    #logo{
+        margin-top: 1.5%;
+        margin-bottom: 1%;
+        height: 0px;
+        width: 0px;
+    }
+    #header{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #contact{
+        background-size: contain;
+    }
+
+}
+
+
+@media (max-width: 610.98px) { 
+    body{
+        background-color: white;
+        font-family: 'Manrope', sans-serif;
+        color: white;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    #about{
+        color: black;
+    }
+    #about h3{
+        margin-top: 4.3%;
+        font-weight: bold;
+    }
+    #about h4{
+        margin-bottom: 5%;
+    }
+    #whatwedo{
+        color: black;
+        margin-bottom: 2.7%;
+    }
+    #whatwedo h4{
+        font-weight: bold;
+        margin-top: 2.2%;
+        margin-bottom: 1.5%;
+    }
+    #whatwedo p{
+        font-size: 10px;
+    }
+    #portfolio{
+        text-align: center;
+        color: black;
+    }
+    #portfolio h3{
+        font-weight: bold;
+    }
+    #portfolio img{
+        width: 120px;
+        height: 120px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    
+    }
+    #port img{
+        margin: 3px;
+        width: 255px;
+        height: 255px;   
+    }
+    #footer{
+        margin-top: 1%;
+        color: black;
+    }
+    #footer h5{
+        margin-top: 1%;
+    }
+    #footer img{
+        width: 26px;
+        height: 26px;
+    }
+    #contact h4{
+        margin-top: 2%;
+        margin-bottom: 1.5%;
+    }
+    #forms input{
+        background: transparent;
+        border: 1.5px solid white;
+        margin-bottom: 3%;
+        width: 24vw;
+    }
+    #forms textarea{
+        background: transparent;
+        border: 1.5px solid white;
+        height: 20vh;
+        width: 60vw;
+        text-align: center;
+       
+    }
+    #contact{
+        text-align: center;
+    }
+    #textarea{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    ::-webkit-input-placeholder{
+        color: white;
+        text-align: left;
+    }
+    #services h4{
+        font-weight: bold;
+        margin-top: 12%;
+        margin-bottom: 1%;
+    }
+    #services h3{
+        margin-top: 1%;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+    #header img{
+        margin-top: 9.5%;
+        width: 35px;
+        height: 35px;
+    }
+    #header h1{
+        margin-top: 3.4%;
+    }
+    #header p{
+        font-size: 12px;
+    }
+    #logo{
+        margin-top: 2%;
+        margin-bottom: 1%;
+        height: 102px;
+        width: 302px;
+    }
+    #header{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #contact{
+        background-size: contain;
+    }
+}
+
+@media (max-width: 450.98px) { 
+    body{
+        background-color: white;
+        font-family: 'Manrope', sans-serif;
+        color: white;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    #about{
+        color: black;
+    }
+    #about h3{
+        margin-top: 4.3%;
+        font-weight: bold;
+    }
+    #about h4{
+        margin-bottom: 5%;
+    }
+    #whatwedo{
+        color: black;
+        margin-bottom: 2.7%;
+    }
+    #whatwedo h4{
+        font-weight: bold;
+        margin-top: 2.2%;
+        margin-bottom: 1.5%;
+    }
+    #whatwedo p{
+        font-size: 10px;
+    }
+    #portfolio{
+        text-align: center;
+        color: black;
+    }
+    #portfolio h3{
+        font-weight: bold;
+    }
+    #portfolio img{
+        width: 80px;
+        height: 70px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    
+    }
+    #port img{
+        margin: 3px;
+        width: 255px;
+        height: 255px;   
+    }
+    #footer{
+        margin-top: 1%;
+        color: black;
+    }
+    #footer h5{
+        margin-top: 1%;
+    }
+    #footer img{
+        width: 26px;
+        height: 26px;
+    }
+    #contact h4{
+        margin-top: 2%;
+        margin-bottom: 1.5%;
+    }
+    #forms input{
+        background: transparent;
+        border: 1.5px solid white;
+        margin-bottom: 3%;
+        width: 24vw;
+    }
+    #forms textarea{
+        background: transparent;
+        border: 1.5px solid white;
+        height: 20vh;
+        width: 60vw;
+        text-align: center;
+       
+    }
+    #contact{
+        text-align: center;
+    }
+    #textarea{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    ::-webkit-input-placeholder{
+        color: white;
+        text-align: left;
+    }
+    #services h4{
+        font-weight: bold;
+        margin-top: 12%;
+        margin-bottom: 1%;
+    }
+    #services h3{
+        margin-top: 1%;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+    #header img{
+        margin-top: 13.5%;
+        width: 35px;
+        height: 35px;
+    }
+    #header h1{
+        margin-top: 3.4%;
+    }
+    #header p{
+        font-size: 9px;
+    }
+    #header h1{
+        font-size: 15px;
+    }
+    #header h2{
+        font-size: 15px;
+    }
+    #logo{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height: 12px;
+        width: 32px;
+    }
+    #header{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #contact{
+        background-size: contain;
+    }
+}
+
+@media (max-width: 320.98px) { 
+    body{
+        background-color: white;
+        font-family: 'Manrope', sans-serif;
+        color: white;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    #about{
+        color: black;
+    }
+    #about h3{
+        margin-top: 6.3%;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #about p{
+        margin-top: 6.3%;
+        font-size: 10px;
+    }
+    #about h4{
+        margin-bottom: 5%;
+    }
+    #whatwedo{
+        color: black;
+        margin-bottom: 2.7%;
+    }
+    #whatwedo h4{
+        font-weight: bold;
+        margin-top: 2.2%;
+        margin-bottom: 1.5%;
+        font-size: 16px;
+    }
+    #whatwedo p{
+        font-size: 9px;
+    }
+    #whatwedo img{
+        height: 40px;
+    }
+    #portfolio{
+        text-align: center;
+        color: black;
+    }
+    #portfolio h3{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #portfolio img{
+        width: 43px;
+        height: 40px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    
+    }
+    #port img{
+        margin: 3px;
+        width: 255px;
+        height: 255px;   
+    }
+    #footer{
+        margin-top: 1%;
+        color: black;
+    }
+    #footer h5{
+        margin-top: 1%;
+        font-size: 13px;
+    }
+    #footer img{
+        width: 20px;
+        height: 20px;
+    }
+    #contact h4{
+        margin-top: 2%;
+        margin-bottom: 2.5%;
+        font-size: 14px;
+    }
+    #contact input{
+        margin-top: 3%;
+    }
+    #forms input{
+        background: transparent;
+        border: 1.5px solid white;
+        margin-bottom: 3%;
+        width: 24vw;
+    }
+    #forms textarea{
+        background: transparent;
+        border: 1.5px solid white;
+        height: 20vh;
+        width: 60vw;
+        text-align: center;
+       
+    }
+    #contact{
+        text-align: center;
+    }
+    #textarea{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    ::-webkit-input-placeholder{
+        color: white;
+        text-align: left;
+    }
+    #services h4{
+        font-weight: bold;
+        margin-top: 12%;
+        margin-bottom: 2%;
+        font-size: 15px;
+    }
+    #services p{
+        margin-bottom: 2%;
+        font-size: 10px;
+    }
+    #services h3{
+        margin-top: 1%;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+    #header img{
+        margin-top: 10.5%;
+        width: 35px;
+        height: 35px;
+    }
+    #header h1{
+        margin-top: 8.4%;
+        font-weight: bold;
+    }
+    #header p{
+        font-size: 9px;
+    }
+    #header h1{
+        font-size: 15px;
+    }
+    #header h2{
+        margin-top: 6%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #logo{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height: 10px;
+        width: 10px;
+    }
+    #header{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #contact{
+        background-size: contain;
+    }
+}
+
+@media (max-width: 380.98px) { 
+    body{
+        background-color: white;
+        font-family: 'Manrope', sans-serif;
+        color: white;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    #about{
+        color: black;
+    }
+    #about h3{
+        margin-top: 6.3%;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #about p{
+        margin-top: 6.3%;
+        font-size: 10px;
+    }
+    #about h4{
+        margin-bottom: 5%;
+    }
+    #whatwedo{
+        color: black;
+        margin-bottom: 2.7%;
+    }
+    #whatwedo h4{
+        font-weight: bold;
+        margin-top: 2.2%;
+        margin-bottom: 1.5%;
+        font-size: 16px;
+    }
+    #whatwedo p{
+        font-size: 9px;
+    }
+    #whatwedo img{
+        height: 40px;
+    }
+    #portfolio{
+        text-align: center;
+        color: black;
+    }
+    #portfolio h3{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #portfolio img{
+        width: 59px;
+        height: 50px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    
+    }
+    #port img{
+        margin: 3px;
+        width: 255px;
+        height: 255px;   
+    }
+    #footer{
+        margin-top: 1%;
+        color: black;
+    }
+    #footer h5{
+        margin-top: 1%;
+        font-size: 13px;
+    }
+    #footer img{
+        width: 20px;
+        height: 20px;
+    }
+    #contact h4{
+        margin-top: 2%;
+        margin-bottom: 2.5%;
+        font-size: 14px;
+    }
+    #contact input{
+        margin-top: 3%;
+    }
+    #forms input{
+        background: transparent;
+        border: 1.5px solid white;
+        margin-bottom: 3%;
+        width: 24vw;
+    }
+    #forms textarea{
+        background: transparent;
+        border: 1.5px solid white;
+        height: 20vh;
+        width: 60vw;
+        text-align: center;
+       
+    }
+    #contact{
+        text-align: center;
+    }
+    #textarea{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    ::-webkit-input-placeholder{
+        color: white;
+        text-align: left;
+    }
+    #services h4{
+        font-weight: bold;
+        margin-top: 12%;
+        margin-bottom: 2%;
+        font-size: 15px;
+    }
+    #services p{
+        margin-bottom: 2%;
+        font-size: 10px;
+    }
+    #services h3{
+        margin-top: 1%;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+    #header img{
+        margin-top: 10.5%;
+        width: 35px;
+        height: 35px;
+    }
+    #header h1{
+        margin-top: 8.4%;
+        font-weight: bold;
+    }
+    #header p{
+        font-size: 9px;
+    }
+    #header h1{
+        font-size: 15px;
+    }
+    #header h2{
+        margin-top: 6%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #logo{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height: 10px;
+        width: 10px;
+    }
+    #header{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #contact{
+        background-size: contain;
+    }
+}
+
+@media (max-width: 300.98px) { 
+    body{
+        background-color: white;
+        font-family: 'Manrope', sans-serif;
+        color: white;
+    }
+    .container-fluid{
+        text-align: center;
+    }
+    #about{
+        color: black;
+    }
+    #about h3{
+        margin-top: 6.3%;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #about p{
+        margin-top: 6.3%;
+        font-size: 10px;
+    }
+    #about h4{
+        margin-bottom: 5%;
+    }
+    #whatwedo{
+        color: black;
+        margin-bottom: 2.7%;
+    }
+    #whatwedo h4{
+        font-weight: bold;
+        margin-top: 2.2%;
+        margin-bottom: 1.5%;
+        font-size: 16px;
+    }
+    #whatwedo p{
+        font-size: 9px;
+    }
+    #whatwedo img{
+        height: 40px;
+    }
+    #portfolio{
+        text-align: center;
+        color: black;
+    }
+    #portfolio h3{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #portfolio img{
+        width: 50px;
+        height: 50px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    
+    }
+    #port img{
+        margin: 3px;
+        width: 255px;
+        height: 255px;   
+    }
+    #footer{
+        margin-top: 1%;
+        color: black;
+    }
+    #footer h5{
+        margin-top: 1%;
+        font-size: 12px;
+    }
+    #footer img{
+        width: 20px;
+        height: 20px;
+    }
+    #contact h4{
+        margin-top: 2%;
+        margin-bottom: 2.5%;
+        font-size: 14px;
+    }
+    #contact input{
+        margin-top: 3%;
+    }
+    #forms input{
+        background: transparent;
+        border: 1.5px solid white;
+        margin-bottom: 3%;
+        width: 24vw;
+    }
+    #forms textarea{
+        background: transparent;
+        border: 1.5px solid white;
+        height: 20vh;
+        width: 60vw;
+        text-align: center;
+       
+    }
+    #contact{
+        text-align: center;
+    }
+    #textarea{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    ::-webkit-input-placeholder{
+        color: white;
+        text-align: left;
+    }
+    #services h4{
+        font-weight: bold;
+        margin-top: 12%;
+        margin-bottom: 2%;
+        font-size: 15px;
+    }
+    #services p{
+        margin-bottom: 2%;
+        font-size: 10px;
+    }
+    #services h3{
+        margin-top: 1%;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+    #header img{
+        margin-top: 10.5%;
+        width: 35px;
+        height: 35px;
+    }
+    #header h1{
+        margin-top: 8.4%;
+        font-weight: bold;
+    }
+    #header p{
+        font-size: 9px;
+    }
+    #header h1{
+        font-size: 15px;
+    }
+    #header h2{
+        margin-top: 6%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #logo{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        height: 10px;
+        width: 10px;
+    }
+    #header{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #contact{
+        background-size: contain;
+    }
+}
