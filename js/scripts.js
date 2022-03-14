@@ -8,32 +8,65 @@
 $(document).ready(function(){
     // $("img#design").mouseenter(function(){
     $("img#design").click(function(){
-        $('h3#desing').css('color','lime').css('font-size','20px').fadeToggle(2000).css('border','1px solid black').css('text-align','center');
-        $('p#desig').css('color','blue').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
+        $('h3#desing').css('color','black').css('font-size','20px').fadeToggle(2000).css('font-weight', 'bold');
+        $('p#desig').css('color','black').css('color','black').css('font-size','13px').fadeToggle(2000);
+        $('p.design').hide();
+        $('img#design').hide();
      });
-    // });
-    $("img#design").mouseleave(function(){
-        $('h3#desing').fadeOut('slow');
-        $('p#desig').fadeOut('slow');
-    });
 
     $("img#dev").click(function(){
-        $('h3#deve').css('color','red').css('font-size','20px').fadeToggle(2000);
-        $('p#devel').css('color','brown').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
+        $('h3#deve').css('color','black').css('font-size','20px').fadeToggle(2000).css('font-weight', 'bold');
+        $('p#devel').css('color','black').css('font-size','13px').fadeToggle(2000);
+        $('p.de').hide();
+        $('img#dev').hide();
     }); 
 
-    $("img#dev").mouseleave(function(){
-        $('h3#deve').fadeOut('slow');
-        $('p#devel').fadeOut('slow');
-    });
-
     $("img#product").click(function(){
-        $('h3#prod').css('color','blue').css('font-size','20px').fadeToggle(2000);
-        $('p#produc').css('color','green').css('font-size','20px').fadeToggle(2000).css('border','1px solid lime').css('font-weight','bold');
+        $('h3#prod').css('color','black').css('font-size','20px').fadeToggle(2000).css('font-weight', 'bold');
+        $('p#produc').css('color','black').css('font-size','13px').fadeToggle(2000);
+        $('p.pro').hide();
+        $('img#product').hide();
     });
 
-    $("img#product").mouseleave(function(){
-        $('h3#prod').fadeOut('slow');
-        $('p#produc').fadeOut('slow');
-    });
+    $('h3#desing').click(function(){
+        $('p.design').show();
+        $('img#design').show();
+        $('h3#desing').hide();
+        $('p#desig').hide();
+
+     });
+     $('p#desig').click(function(){
+        $('p.design').show();
+        $('img#design').show();
+        $('h3#desing').hide();
+        $('p#desig').hide();
+     });
+
+     $('h3#deve').click(function(){
+        $('h3#deve').hide();
+        $('p#devel').hide();
+        $('p.de').show();
+        $('img#dev').show();
+
+     });
+     $('p#devel').click(function(){
+        $('h3#deve').hide();
+        $('p#devel').hide();
+        $('p.de').show();
+        $('img#dev').show();
+     });
+
+     $('h3#prod').click(function(){
+        $('h3#prod').hide();
+        $('p#produc').hide();
+        $('p.pro').show();
+        $('img#product').show();
+
+     });
+     $('p#produc').click(function(){
+        $('h3#prod').hide();
+        $('p#produc').hide();
+        $('p.pro').show();
+        $('img#product').show();
+     });
 });
